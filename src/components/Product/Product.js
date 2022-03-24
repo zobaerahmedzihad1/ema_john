@@ -1,10 +1,10 @@
 import React from "react";
-import {FaCartArrowDown} from 'react-icons/fa'
+import { FaCartArrowDown } from "react-icons/fa";
 import "./Product.css";
 
 const Product = (props) => {
-  console.log(props);
-  const { id, name, img, price, seller, ratings } = props.product;
+  //   console.log(props);
+  const { name, img, price, seller, ratings } = props.product;
   return (
     <div className="product-container">
       <div className="product-img">
@@ -16,9 +16,11 @@ const Product = (props) => {
         <p>Seller : {seller} </p>
         <p>Ratings : {ratings}</p>
       </div>
-        <button className="btn-cart">
-             <p>Add to Cart <FaCartArrowDown/></p> 
-        </button>
+      <button onClick={() => props.handleAddToCart(props.product)} className="btn-cart">
+        <p>
+          Add to Cart <FaCartArrowDown />
+        </p>
+      </button>
     </div>
   );
 };
