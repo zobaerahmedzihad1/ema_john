@@ -1,0 +1,9 @@
+.nav-part {
+  height: 5rem;
+  background-color: #1c2b35;
+  text-align: center;
+}
+.nav-link{
+     color: #fff;
+     font-size: 1.2rem;
+}
