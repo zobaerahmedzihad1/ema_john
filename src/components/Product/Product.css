@@ -1,0 +1,39 @@
+.product-container {
+  border: 1px solid gray;
+  border-radius: .4rem;
+  height: 510px;
+  margin: 2rem 1rem;
+  position: relative;
+}
+
+.product-img {
+  height: 300px;
+  padding: 1rem;
+  cursor: pointer;
+}
+.product-img img {
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.product-info {
+  padding: 1.5rem;
+}
+.product-info h5 {
+  padding: 0.2rem 0;
+}
+.product-info p {
+  padding: 0.1rem 0;
+}
+.btn-cart{
+     width: 100%;
+     padding: .5rem;
+     background: #FFE0B3;
+     border: none;
+     border-radius: .2rem 0 0 .2rem;
+     position: absolute;
+     bottom: 0;
+     transition: all .4s ease;
+}
+.btn-cart:hover{
+     background: orange;
+}
