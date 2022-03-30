@@ -7,7 +7,7 @@ const Product = ({handleAddToCart, product}) => {
   return (
     <div className="product-container">
       <div className="product-img">
-        <img src={img} alt="image" />
+        <img src={img} alt="" />
       </div>
       <div className="product-info">
         <h5>{name}</h5>

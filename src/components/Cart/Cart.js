@@ -3,7 +3,7 @@ import CartImage from "../CartImage/CartImage";
 import "./Cart.css";
 
 const Cart = ({ cart }) => {
-  console.log(cart);
+  // console.log(cart);
 
   let total = 0;
   let shipping = 0;
