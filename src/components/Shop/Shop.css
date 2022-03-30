@@ -7,7 +7,11 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
 }
-.cart-container{
+.cart-container {
   background-color: rgb(139, 180, 226);
   /* color: white ; */
+}
+.cart-container h2 {
+  position: sticky;
+  top: 250px;
 }
